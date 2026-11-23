@@ -1,0 +1,49 @@
+# Environment
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Evidence files (large binary)
+evidence/originals/*
+evidence/working/*
+evidence/thumbnails/*
+evidence/carved/*
+!evidence/originals/.gitkeep
+!evidence/working/.gitkeep
+!evidence/thumbnails/.gitkeep
+!evidence/carved/.gitkeep
+
+# Reports
+reports/*.pdf
+!reports/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ONNX models
+*.onnx
